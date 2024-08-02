@@ -1,0 +1,454 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.primerSegmento {
+  display: flex;
+  justify-content: space-around;
+}
+
+.segundoSegmento {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.cabecera {
+  font-weight: 700;
+  font-size: normal;
+  margin-left: 5%;
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 70em;
+}
+
+.cabecera__title {
+  margin-left: 3%;
+}
+
+.novedades {
+  margin: 0% 5%;
+  width: 50%;
+  flex-direction: column;
+}
+.novedades a {
+  text-decoration: none;
+  color: black;
+}
+.novedades a:hover {
+  color: rgb(144, 144, 144);
+}
+
+.lateral {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.lateral__cajas {
+  display: flex;
+  margin: 2% 0%;
+}
+
+.lateral__descripcion {
+  flex-direction: column;
+  width: 30%;
+}
+
+.populares__div {
+  display: flex;
+  justify-content: center;
+}
+
+.categorias {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer__img {
+  width: 5%;
+  border-radius: 10%;
+  margin-left: 5%;
+  margin-right: 3em;
+  align-self: center;
+  box-shadow: -2px 6px 5px silver;
+}
+
+.footer__p {
+  margin-left: 50%;
+  align-self: center;
+}
+
+.formLogin__div {
+  text-align: center;
+  margin: 5% auto;
+}
+.formLogin__div span {
+  font-weight: bold;
+}
+
+.formLogin__div2 {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% auto;
+}
+.formLogin__div2 div {
+  display: flex;
+}
+
+.formLogin__div3 {
+  width: 25%;
+  display: block;
+  justify-content: space-evenly;
+  margin: 0% auto;
+}
+.formLogin__div3 a {
+  text-decoration: none;
+}
+
+.formLogin__div4 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0% auto;
+}
+.formLogin__div4 a {
+  text-decoration: none;
+  color: black;
+}
+.formLogin__div4 p {
+  margin-right: 5%;
+}
+
+.formLogin__titulo {
+  font-size: x-large;
+}
+
+.navbar {
+  display: flex;
+  padding: 0% 3%;
+}
+.navbar a {
+  margin-right: 10%;
+  margin-left: 5%;
+  text-decoration: none;
+  color: rgb(43, 43, 43);
+}
+.navbar a:hover {
+  color: rgb(196, 196, 196);
+}
+
+.subcription__div {
+  background-color: #729e2e;
+  border-radius: 10px;
+  color: white;
+  margin: 2em 3em;
+  padding: 3em 0em;
+}
+
+.subcription__div1 {
+  padding: 1em 3em 0em;
+  width: 30%;
+}
+.subcription__div1 h2 {
+  margin: 0px;
+}
+
+.subcription__div2 {
+  margin: 0px;
+  padding: 0em 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subcription__input {
+  width: 40em;
+  height: 3em;
+  border-radius: 5px;
+  border-color: silver;
+  font-family: "Poppins";
+  font-size: large;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.subcription__button {
+  font-family: "poppins";
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 20%;
+  height: 3em;
+  margin: 1% 10% 1% 0%;
+  color: rgb(105, 105, 105);
+  background-color: rgb(212, 212, 212);
+  border-style: none;
+}
+.subcription__button:hover {
+  background-color: #3e6209;
+  color: whitesmoke;
+}
+
+.populares__card {
+  margin: 3%;
+}
+
+.populares__text {
+  margin: 0px;
+}
+
+.categorias__div--orange {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 0% 2%;
+  margin: 5% 0%;
+  border-radius: 20px;
+  width: 300px;
+  background-color: #E93E30;
+}
+.categorias__div--yellow {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 0% 2%;
+  margin: 5% 0%;
+  border-radius: 20px;
+  width: 300px;
+  background-color: #F7E018;
+}
+.categorias__div--blue {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 0% 2%;
+  margin: 5% 0%;
+  border-radius: 20px;
+  width: 300px;
+  background-color: #299ED5;
+}
+.categorias__div--gray {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 0% 2%;
+  margin: 5% 0%;
+  border-radius: 20px;
+  width: 300px;
+  background-color: #292C33;
+}
+.categorias__div--green {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 0% 2%;
+  margin: 5% 0%;
+  border-radius: 20px;
+  width: 300px;
+  background-color: #67C770;
+}
+.categorias__div--purple {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 0% 2%;
+  margin: 5% 0%;
+  border-radius: 20px;
+  width: 300px;
+  background-color: #563D7C;
+}
+
+.categorias__titulo {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.categorias__p {
+  font-weight: 400;
+  font-size: 15pt;
+}
+
+.cabecera__img {
+  width: 4em;
+  border-radius: 10%;
+  align-self: center;
+  box-shadow: -2px 6px 5px silver;
+}
+
+.novedades__img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.lateral__img {
+  width: 20em;
+  clip-path: inset(0% 15% round 20px);
+  border-radius: 20px;
+}
+
+.populares__img {
+  width: 22em;
+  height: 12em;
+  border-radius: 20px;
+}
+
+.categorias__img {
+  width: 25%;
+  border-radius: 20px;
+  align-self: center;
+}
+
+.novedades__logo {
+  width: 2em;
+  border-radius: 100%;
+  box-shadow: -2px 6px 5px silver;
+  margin-right: 3%;
+  align-self: center;
+}
+
+.novedades__desafiolatam {
+  display: flex;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.novedades__desafiolatam--resize {
+  display: flex;
+  font-size: large;
+  font-weight: 500;
+}
+
+.populares__logo {
+  width: 2em;
+  border-radius: 100%;
+  box-shadow: -2px 6px 5px silver;
+  margin-right: 3%;
+  align-self: center;
+}
+
+.populares__desafiolatam {
+  display: flex;
+  font-weight: 500;
+  font-size: 300;
+}
+
+.formLogin__button1 {
+  font-family: "poppins";
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 100%;
+  height: 3em;
+  margin: 1% 0%;
+  color: white;
+  background-color: #729e2e;
+  border-style: none;
+}
+.formLogin__button1:hover {
+  background-color: #3e6209;
+}
+
+.formLogin__button2 {
+  font-family: "poppins";
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 100%;
+  height: 3em;
+  margin: 1% 0%;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-color: silver;
+  border-style: solid;
+  align-items: center;
+  justify-content: center;
+}
+.formLogin__button2:hover {
+  background-color: rgb(88, 88, 88);
+  color: white;
+}
+.formLogin__button2 img {
+  padding-right: 5%;
+}
+
+.formLogin__input {
+  width: 20em;
+  height: 3em;
+  border-radius: 5px;
+  border-color: silver;
+  font-family: "Poppins";
+  font-size: large;
+  border-width: 2px;
+  border-style: solid;
+  display: flex;
+  margin: 1% auto;
+}
+
+.formLogin__checkbox {
+  width: 2em;
+}
+
+.detail__title {
+  font-weight: bold;
+  margin-left: 5em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.detail__logoDate {
+  display: flex;
+}
+
+.detail__logoDateDiv {
+  margin-left: 5em;
+  display: flex;
+  width: 15%;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.detail__logoDateDiv p {
+  font-weight: 600;
+}
+
+.detail__div {
+  margin-left: 5em;
+  margin-right: 5em;
+  background-color: rgb(238, 236, 236);
+  border-radius: 10px;
+  padding: 2em;
+  line-height: 1.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.detail__div img {
+  border-radius: 10px;
+  width: 60%;
+}
+
+.detail__cards {
+  padding: 0% 3%;
+}
+
+.detail__logoCards {
+  display: flex;
+}
+
+/*# sourceMappingURL=styles.css.map */

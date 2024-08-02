@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    align-items: center;
+}
+
+.cabecera{
+    font-weight: 700;
+    font-size: normal;
+    margin-left: 5%;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 70em;
+}
+
+.cabecera__title{
+    margin-left: 3%;
+}

@@ -1,0 +1,51 @@
+@mixin categorias{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 0% 2%;
+    margin: 5% 0%;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.categorias__div{
+    &--orange{
+        @include categorias;
+        background-color: #E93E30;
+    }
+
+    &--yellow{
+        @include categorias;
+        background-color: #F7E018;
+    }
+
+    &--blue{
+        @include categorias;
+        background-color: #299ED5;
+    }
+
+    &--gray{
+        @include categorias;
+        background-color: #292C33;
+    }
+
+    &--green{
+        @include categorias;
+        background-color: #67C770;
+    }
+
+    &--purple{
+        @include categorias;
+        background-color: #563D7C;
+    }
+}
+
+.categorias__titulo{
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.categorias__p{
+    font-weight: 400;
+    font-size: 15pt;
+}

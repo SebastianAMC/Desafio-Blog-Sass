@@ -1,0 +1,33 @@
+.novedades__logo{
+    width: 2em;
+    border-radius: 100%;
+    box-shadow: -2px 6px 5px silver;
+    margin-right: 3%;
+    align-self: center;
+}
+
+.novedades__desafiolatam{
+    display: flex;
+    font-weight: 500;
+    font-size:30px;
+}
+
+.novedades__desafiolatam--resize{
+    display: flex;
+    font-size: large;
+    font-weight: 500;
+}
+
+.populares__logo{
+    width: 2em;
+    border-radius: 100%;
+    box-shadow: -2px 6px 5px silver;
+    margin-right: 3%;
+    align-self: center;
+}
+
+.populares__desafiolatam{
+    display: flex;
+    font-weight: 500;
+    font-size: 300;
+}

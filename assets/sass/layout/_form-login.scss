@@ -1,0 +1,52 @@
+.formLogin__div{
+    text-align: center;
+    margin: 5% auto;
+
+    span { 
+        font-weight: bold;
+    }
+}
+
+.formLogin__div2{
+    width: 25%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0% auto;
+
+    div{
+        display: flex;
+    }
+}
+
+.formLogin__div3{
+    width: 25%;
+    display: block;
+    justify-content:space-evenly;
+    margin: 0% auto;
+   
+    a{
+        text-decoration: none;
+    }
+}
+
+.formLogin__div4{
+    width: 25%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0% auto;
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    p{
+        margin-right: 5%;
+    }
+}
+
+.formLogin__titulo{
+    font-size: x-large;
+}

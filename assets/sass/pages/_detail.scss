@@ -1,0 +1,48 @@
+.detail__title{
+    font-weight: bold;
+    margin-left: 5em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.detail__logoDate{
+    display: flex;
+}
+
+.detail__logoDateDiv{
+    margin-left: 5em;
+    display: flex;
+    width: 15%;
+    align-items: center;
+    margin-bottom: 2em;
+
+    p{
+        font-weight: 600;
+    }
+}
+
+.detail__div{
+    margin-left: 5em;
+    margin-right: 5em;
+    background-color: rgb(238, 236, 236);
+    border-radius:10px;
+    padding: 2em;
+    line-height: 1.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        border-radius: 10px;
+        width: 60%;
+    }
+}
+
+
+.detail__cards{
+    padding: 0% 3%;
+}
+
+.detail__logoCards{
+    display: flex;
+}

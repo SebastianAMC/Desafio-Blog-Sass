@@ -1,0 +1,43 @@
+.novedades{
+    margin: 0% 5%;
+    width: 50%;
+    flex-direction: column;
+
+    a{
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+            color: rgb(144, 144, 144);
+        }
+    }
+
+}
+
+.lateral{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.lateral__cajas{
+    display: flex;
+    margin: 2% 0%;
+}
+
+.lateral__descripcion{
+    flex-direction: column;
+    width: 30%;
+}
+
+.populares__div{
+    display: flex;
+    justify-content:center;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: xx-large;
+}
